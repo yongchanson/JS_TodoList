@@ -67,32 +67,31 @@ body, html {
     
 }
 
-#todo-list {
-    width: 400px;
-    position: absolute;
-    left: 50%;
-    top: 20%;
-    transform: translate(-50%);
-    color: lightcoral;;
-    font-family: fantasy;
-    font-size: 15px;
-    text-shadow: 1px 1px rgb(30%);
-    list-style:none;
-}
-
 #todo-form input { /*할일 받는*/
     position: absolute;
-    width: 460px;
-    left: 50%;
+    width: 380px;
+    left: 40%;
     top: 10%;
-    transform: translate(-45%);
+    transform: translate(-53px);
     color: lightcoral;
     text-align: center;
-    border: 1px solid black;
     font-size: 30px;
     font-family: fantasy;
     padding: 10px 0;
     background-color: black;
+}
+
+#todo-list {
+    width: 400px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    transform: translate(-100px);
+    color: lightcoral;;
+    font-family: fantasy;
+    font-size: 30px;
+    text-shadow: 1px 1px rgb(30%);
+    list-style:none;
 }
 
 #todo-list li {
@@ -117,15 +116,16 @@ body, html {
     position: absolute;
     left: 0%;
     top: 0%;
-    transform: translate(30%, 10%);
+    transform: translate(125px, 10px);
     color: lightcoral;
     font-family: fantasy;
     font-size: 25px;
     text-align: center;
     border: 1px solid;
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px 0;
     width: 300px;
+    margin:0;
     background-color: black;
 }
 
@@ -133,32 +133,35 @@ body, html {
     position: absolute;
     left: 0%;
     top: 0%;
-    transform: translate(30%, 10%);
+    transform: translate(10px, 10px);
     color: lightcoral;
     font-family: fantasy;
     font-size: 25px;
     text-align: center;
     border: 1px solid;
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px 0;
     width: 100px;
+    margin:0;
     background-color: black;
 }
 
 #greeting { /*hello~*/
     position: absolute;
     left: 0%;
-    top: 15px;
-    transform: translate(30%, 10%);
+    top: 0%;
+    transform: translate(10px, 40px);
     color: lightcoral;
     font-family: fantasy;
-    font-size: 35px;
+    font-size: 40px;
+    margin:0;
+    padding: 10px 0;
     text-shadow: 1px 1px rgb(30%);
     background-color: black;
 }
 
 #quote {
-    position: fixed;
+    position: absolute;
     right: 10px;
     bottom: 5%;
     color: lightcoral;
@@ -169,4 +172,3 @@ body, html {
     text-align:right;
     background-color: black;
 }
-
